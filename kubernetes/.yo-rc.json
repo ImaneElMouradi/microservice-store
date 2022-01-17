@@ -1,0 +1,17 @@
+{
+  "generator-jhipster": {
+    "appsFolders": ["gateway", "invoice", "notification"],
+    "directoryPath": "../",
+    "clusteredDbApps": ["notification"],
+    "serviceDiscoveryType": "eureka",
+    "jwtSecretKey": "OTAyMWVkY2ZmNTMwYzRkYTU5NTE1NGJkZWRmMWYwODcwZjIyZGVlYTVkNjk1ODBjNjc4ZDQ0ODA5N2MyNzdmNjFiMzYyNTJmMjZjYzY5NjU0OWJlN2IyODkxMDkzY2UxMGYwOA==",
+    "dockerRepositoryName": "antoninoprivitera",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "store",
+    "kubernetesServiceType": "LoadBalancer",
+    "kubernetesUseDynamicStorage": false,
+    "ingressDomain": "",
+    "monitoring": "prometheus",
+    "istio": false
+  }
+}
